@@ -1,0 +1,324 @@
+@import url('../fonts/inter.css');
+
+body{font-family:Inter,sans-serif;font-size:16px;font-weight:400!important;color:#000000}
+*{font-family:Inter,sans-serif;font-weight:400}
+a:hover,
+a:active,
+a:focus{
+  text-decoration: none;
+}
+::-webkit-input-placeholder {
+    color: #626e77;
+    font-size: 0.81rem;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #626e77;
+    font-size: 0.81rem;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #626e77;
+    font-size: 0.81rem;
+}
+.font-500{font-weight:500!important}
+.form-control{border:1px solid #656565}
+.select2-container{z-index:9999}
+.psoriasis_div_new p{margin-bottom:0;color:#000;font-weight:300;font-size:18px}
+@media (max-width:1680px){
+.psoriasis_div_new p{margin-bottom:0;color:#000;font-weight:300;font-size:16px}
+}
+.psoriasis_div_new .treatment_all_heading_page{margin-bottom:10px;font-size:32px;color:#000;font-weight:600}
+@media (max-width:1440px){
+.psoriasis_div_new .treatment_all_heading_page{margin-bottom:8px;font-size:30px;color:#000;font-weight:600}
+}
+@media (max-width:1280px){
+.psoriasis_div_new .treatment_all_heading_page{margin-bottom:8px;font-size:26px;color:#000;font-weight:600}
+}
+@media (max-width:600px){
+.psoriasis_div_new .treatment_all_heading_page{margin-bottom:10px;font-size:22px;color:#000;font-weight:600;text-align:left}
+}
+.view_more_commmon_btn{margin-top:30px;padding:10px 20px;color:#fff;font-size:16px;text-transform:uppercase;font-weight:500;border-radius:30px;line-height:normal;background-color:#1f83c5}
+.view_more_commmon_btn:hover{color:#fff}
+
+/*==========================================*/
+/* New Banner css*/
+/*==========================================*/
+.psoriasis_div_new.banner_new_section{padding:30px 0;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url('../images/banner_bg.webp');background-color:#0c4679;background-size:cover;background-position:center left;background-repeat:no-repeat}
+.psoriasis_div_new.banner_new_section h1{font-size:55px;font-weight:700;line-height:normal;color:#fff}
+.psoriasis_div_new.banner_new_section h2{font-size:24px;font-weight:400;line-height:normal;color:#fff}
+.psoriasis_div_new.banner_new_section img{width:100%}
+.psoriasis_div_new .talk_about_btn{width:auto;display:inline-block;margin:10px 0 0 0;padding:10px 30px;line-height:normal;color:#0c4679;border-radius:50px;font-weight:600;font-size:21px;text-align:center;border:none;background-color:#fff!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
+.psoriasis_div_new .talk_about_btn:hover{color:#1f83c5!important}
+@media (max-width:1440px){
+.psoriasis_div_new.banner_new_section h1{font-size:45px;font-weight:700;line-height:normal;color:#fff}
+
+.psoriasis_div_new .talk_about_btn{width:auto;display:inline-block;margin:10px 0 0 0;padding:10px 30px;line-height:normal;color:#0c4679;border-radius:50px;font-weight:600;font-size:18px;text-align:center;border:none;background-color:#fff!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
+}
+@media (max-width:992px){
+.psoriasis_div_new.banner_new_section h1{font-size:38px;font-weight:700;line-height:normal;color:#fff}
+.psoriasis_div_new.banner_new_section h2{font-size:21px;font-weight:400;line-height:normal;color:#fff}
+.psoriasis_div_new .talk_about_btn{width:auto;display:inline-block;margin:10px 0 0 0;padding:8px 30px;line-height:normal;color:#0c4679;border-radius:50px;font-weight:600;font-size:16px;text-align:center;border:none;background-color:#fff!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
+}
+@media (max-width:600px){
+.psoriasis_div_new.banner_new_section h1{font-size:35px;font-weight:700;line-height:normal;color:#fff;text-align:center}
+.psoriasis_div_new.banner_new_section h2{font-size:18px;font-weight:400;line-height:normal;color:#fff;text-align:center}
+.psoriasis_div_new.banner_new_section{padding:30px 0 15px;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url('../images/banner_bg_mob.webp');background-color:#0c4679;background-size:cover;background-position:center;background-repeat:no-repeat;border-radius:0 0 20px 20px}
+.psoriasis_div_new .talk_about_btn{width:80%;display:block;text-align:center;margin:15px auto 20px;padding:8px 30px;line-height:normal;color:#0c4679;border-radius:50px;font-weight:600;font-size:18px;text-align:center;border:none;background-color:#fff!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
+.psoriasis_div_new.banner_new_section img{width:100%;padding:15px}
+}
+@media (max-width:400px){
+.psoriasis_div_new.banner_new_section h1{font-size:30px;font-weight:700;line-height:normal;color:#fff;text-align:center}
+.psoriasis_div_new .talk_about_btn{width:80%;display:block;text-align:center;margin:15px auto 20px;padding:10px 30px;line-height:normal;color:#0c4679;border-radius:50px;font-weight:600;font-size:16px;text-align:center;border:none;background-color:#fff!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
+.psoriasis_div_new.banner_new_section img{width:100%;padding:10px}
+}
+@media (max-width:375px){
+.psoriasis_div_new.banner_new_section h1{font-size:26px;font-weight:700;line-height:normal;color:#fff;text-align:center}
+.psoriasis_div_new.banner_new_section img{width:100%;padding:10px}
+}
+@media (max-width:360px){
+.psoriasis_div_new.banner_new_section h1{font-size:24px;font-weight:700;line-height:normal;color:#fff;text-align:center}
+.psoriasis_div_new.banner_new_section h2{font-size:16px;font-weight:400;line-height:normal;color:#fff;text-align:center}
+}
+
+
+/*==========================================*/
+/* What section css*/
+/*==========================================*/
+.psoriasis_div_new.What_section_alopecia{margin-top:50px}
+@media (max-width:600px){
+.psoriasis_div_new.What_section_alopecia{margin-top:30px}
+}
+/*==========================================*/
+/* What css*/
+/*==========================================*/
+.psoriasis_div_new .youtube-video{width:100%;aspect-ratio:15/8}
+.psoriasis_div_new .video-container{width:100%;height:46vh;overflow:hidden;position:relative}
+.psoriasis_div_new .video-container iframe{position:absolute;top:0;left:0;width:100%;height:100%}
+.psoriasis_div_new .video-container iframe{pointer-events:none}
+.psoriasis_div_new .video-container iframe{position:absolute;top:-60px;left:0;width:100%;height:calc(100% + 120px)}
+.psoriasis_div_new .video-foreground{pointer-events:none}
+@media(max-width:1680px){
+.psoriasis_div_new .video-container{width:100%;height:40vh;overflow:hidden;position:relative}
+}
+@media(max-width:1024px){
+.psoriasis_div_new .video-container{width:100%;height:34vh;overflow:hidden;position:relative}
+}
+@media(max-width:800px){
+.psoriasis_div_new .video-container{width:100%;height:25vh;overflow:hidden;position:relative}
+}
+@media(max-width:768px){
+.psoriasis_div_new .video-container{width:100%;height:42vh;overflow:hidden;position:relative}
+.psoriasis_div_new.what_section_xogen_sec{background:#fff}
+.psoriasis_div_new.what_section_xogen_sec{margin-top:40px!important}
+}
+/*==========================================*/
+/* Why section css*/
+/*==========================================*/
+.psoriasis_div_new.why_section_alopecia{margin-top:50px}
+.psoriasis_div_new.why_section_alopecia .container{padding:40px;background-color:#e0f3ff;border-radius:20px}
+.psoriasis_div_new.why_section_alopecia .icon_box_why{width:56px;height:56px;padding:10px;margin-right:12px;background-color:#0c4679;border-radius:6px}
+.psoriasis_div_new.why_section_alopecia p{width:85%;line-height:normal;font-size:18px;font-weight:300;line-height:normal;margin-bottom:0}
+.psoriasis_div_new.why_section_alopecia p span{font-size:24px;font-weight:600}
+.psoriasis_div_new.why_section_alopecia .content_box_why_pcos{display:inline-flex;align-items:start}
+@media (max-width:1680px){
+.psoriasis_div_new.why_section_alopecia p{font-size:16px}
+}
+@media (max-width:600px){
+.psoriasis_div_new.why_section_alopecia{margin-top:30px}
+.psoriasis_div_new.why_section_alopecia .container{padding:30px 15px}
+.psoriasis_div_new.why_section_alopecia p{width:85%; font-size: 16px}
+.psoriasis_div_new.why_section_alopecia p span{font-size:18px;font-weight:600}
+}
+/*==========================================*/
+/* Medicen Alopecia section css*/
+/*==========================================*/
+.psoriasis_div_new.medicines_alopecia_box{margin-top:40px}
+.psoriasis_div_new.medicines_alopecia_box .icon_box_why{width:56px;height:56px;padding:5px 0px;margin-right:12px;background-color:#fff;border-radius:6px; text-align: center;}
+.psoriasis_div_new.medicines_alopecia_box p{line-height:normal;font-size:18px;font-weight:300;line-height:normal;margin-bottom:0}
+.psoriasis_div_new.medicines_alopecia_box .content_box_why_pcos p{width:85%; line-height:normal;font-size:18px;font-weight:300;line-height:normal;margin-bottom:0}
+.psoriasis_div_new.medicines_alopecia_box p span{font-size:24px;font-weight:600}
+.psoriasis_div_new.medicines_alopecia_box .content_box_why_pcos{display:inline-flex;align-items:flex-start;}
+@media (max-width:1680px){
+.psoriasis_div_new.medicines_alopecia_box p, .psoriasis_div_new.medicines_alopecia_box .content_box_why_pcos p{font-size:16px}
+}
+@media (max-width:600px){
+.psoriasis_div_new.medicines_alopecia_box{margin-top:30px}
+.psoriasis_div_new.medicines_alopecia_box .container{padding:0 15px}
+.psoriasis_div_new.medicines_alopecia_box p{ font-size: 16px}
+.psoriasis_div_new.medicines_alopecia_box .content_box_why_pcos p{width:85%; font-size: 16px}
+.psoriasis_div_new.medicines_alopecia_box p span{font-size:18px;font-weight:600}
+}
+/*==========================================*/
+/* Why Homeopathy section css*/
+/*==========================================*/
+.psoriasis_div_new.why_homeopathy_section_Alopecia{margin-top:50px}
+.psoriasis_div_new.why_homeopathy_section_Alopecia .icon_box_why{width:56px;height:56px;padding:10px;margin-right:12px;background-color:#0c4679;border-radius:6px}
+.psoriasis_div_new.why_homeopathy_section_Alopecia .content_box_why_pcos p{width:85%; line-height:normal;font-size:18px;font-weight:300;line-height:normal;margin-bottom:0}
+.psoriasis_div_new.why_homeopathy_section_Alopecia .content_box_why_pcos p span{font-size:24px;font-weight:600}
+.psoriasis_div_new.why_homeopathy_section_Alopecia .content_box_why_pcos{display:inline-flex;align-items:start}
+@media (max-width:1680px){
+.psoriasis_div_new.why_homeopathy_section_Alopecia .content_box_why_pcos p, .psoriasis_div_new.why_homeopathy_section_Alopecia p{font-size:16px}
+}
+@media (max-width:600px){
+.psoriasis_div_new.why_homeopathy_section_Alopecia{margin-top:30px}
+.psoriasis_div_new.why_homeopathy_section_Alopecia .content_box_why_pcos p{width:85%}
+.psoriasis_div_new.why_homeopathy_section_Alopecia .content_box_why_pcos p span{font-size:18px;font-weight:600}
+}
+/*==========================================*/
+/* Video css*/
+/*==========================================*/
+.psoriasis_div_new.video_testmonilas_section{padding-top:40px}
+.psoriasis_div_new.video_testmonilas_section .test-v-cls{bottom:10px;position:absolute;padding:5px 5px}
+.psoriasis_div_new.video_testmonilas_section .resultsImg{position:absolute;bottom:210px;right:10px}
+.psoriasis_div_new.video_testmonilas_section .resultsImg img{width:70px!important}
+.psoriasis_div_new.video_testmonilas_section .test-v-para{font-size:16px;color:#fff;font-weight:400;margin-bottom:0}
+.psoriasis_div_new.video_testmonilas_section .test-v-subheading{color:#b99863;font-size:18px;font-weight:600;margin-bottom:0}
+.psoriasis_div_new.video_testmonilas_section .img-test-before-after-v{position:absolute;top:10px;right:10px}
+@media screen and (max-width:600px){
+.psoriasis_div_new.video_testmonilas_section .resultsImg{position:absolute;bottom:360px;right:20px}
+.psoriasis_div_new.video_testmonilas_section .resultsImg img{width:100px}
+.psoriasis_div_new.video_testmonilas_section .mfp-iframe-holder .mfp-content{line-height:0;width:100%;max-width:900px;height:90%}
+.psoriasis_div_new.video_testmonilas_section.video_testmonilas_section{padding-top:40px}
+}
+@media screen and (max-width:400px){
+.psoriasis_div_new.video_testmonilas_section .resultsImg{position:absolute;bottom:290px;right:20px}
+.psoriasis_div_new.video_testmonilas_section .resultsImg img{width:90px}
+}
+.psoriasis_div_new.video_testmonilas_section .text-play-btn-img{width:30px!important;margin-right:10px!important}
+.psoriasis_div_new.video_testmonilas_section .popup-vimeo{display:ruby;color:#fff;font-weight:600}
+.psoriasis_div_new.video_testmonilas_section .popup-vimeo:hover{text-decoration:none}
+.psoriasis_div_new.video_testmonilas_section #testimonilas_slider .owl-dots{display:none}
+.psoriasis_div_new.video_testmonilas_section #testimonilas_slider .owl-item img{width:100%}
+.psoriasis_div_new.video_testmonilas_section #testimonilas_slider .owl-next,#testimonilas_slider .owl-prev{position:absolute;top:-5px;height:100%}
+.psoriasis_div_new.video_testmonilas_section #testimonilas_slider .owl-prev{left:-15px; background-color: transparent !important;}
+.psoriasis_div_new.video_testmonilas_section #testimonilas_slider .owl-next{right:-15px; background-color: transparent !important;}
+@media screen and (max-width:600px){
+.psoriasis_div_new.video_testmonilas_section #testimonilas_slider .owl-prev{left:-5px; background-color: transparent !important;}
+.psoriasis_div_new.video_testmonilas_section #testimonilas_slider .owl-next{right:-5px; background-color: transparent !important;}
+}
+/*==========================================*/
+/* Before After Images Slider css*/
+/*==========================================*/
+.psoriasis_div_new.before_after_slider{padding-top:40px}
+.psoriasis_div_new.before_after_slider .screenshot_slider .owl-dots{display:none}
+.psoriasis_div_new.before_after_slider .screenshot_slider .owl-item img{width:100%}
+.psoriasis_div_new.before_after_slider .screenshot_slider .owl-next,
+.psoriasis_div_new .screenshot_slider .owl-prev{position:absolute;top:-5px;height:100%}
+.psoriasis_div_new.before_after_slider .screenshot_slider .owl-prev{left:-15px; background-color: transparent !important;}
+.psoriasis_div_new.before_after_slider .screenshot_slider .owl-next{right:-15px; background-color: transparent !important;}
+@media(max-width:768px){
+.psoriasis_div_new.before_after_slider{padding-top:30px}
+}
+@media(max-width:600px){
+.psoriasis_div_new.before_after_slider{padding-top:30px}
+.psoriasis_div_new.before_after_slider .screenshot_slider .owl-prev{left:-5px; background-color: transparent !important;}
+.psoriasis_div_new.before_after_slider .screenshot_slider .owl-next{right:-5px; background-color: transparent !important;}
+}
+/*==========================================*/
+/* did you know css*/
+/*==========================================*/
+.psoriasis_div_new.did_u_know_section_pcos{margin-top:50px;padding:40px 0 50px;background-color:#e0f3ff}
+@media(max-width:600px){
+.psoriasis_div_new.did_u_know_section_pcos{margin-top:30px;padding:30px 0}
+}
+/*==========================================*/
+/* Form Form css*/
+/*==========================================*/
+ .psoriasis_div_new.form_section_div{padding:20px 0;background-color:#fff;border-top:20px solid #0c4475;border-bottom:20px solid #0c4475}
+.psoriasis_div_new .form_custom_bg_testmonilas{background:#fff;padding:0}
+.psoriasis_div_new .testmonilas_form_custom label{position:absolute;top:35%;left:28px;transform:translateY(-50%);font-size:16px;color:#757575;pointer-events:none;transition:all .15s ease-out}
+.psoriasis_div_new .testmonilas_form_custom input,.psoriasis_div_new .testmonilas_form_custom select{display:block;width:100%;height:calc(1.5em + .75rem + 2px);padding:.375rem .75rem;font-size:16px;font-weight:400;line-height:1.5;color:#495057;background-color:#fff;background-clip:padding-box;border:1px solid #ced4da;border-radius:6px;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out}
+.psoriasis_div_new .testmonilas_form_custom input:focus,.psoriasis_div_new .testmonilas_form_custom select:focus{border:1px solid #1d81c4;outline:0;background-color:#fff}
+.psoriasis_div_new .testmonilas_form_custom input.has-value+label,.psoriasis_div_new .testmonilas_form_custom input:focus+label,.psoriasis_div_new .testmonilas_form_custom select.has-value+label,.psoriasis_div_new .testmonilas_form_custom select:focus+label{top:-1px;font-size:11px;font-weight:500;color:#1d81c4;background-color:#fff;padding:5px 6px 0 6px}
+.psoriasis_div_new .testmonilas_form_custom input:focus::-webkit-input-placeholder,.psoriasis_div_new .testmonilas_form_custom select:focus::-webkit-input-placeholder{color:transparent}
+.psoriasis_div_new .check_box_lable input{width:16px;height:auto;display:inline-flex;margin-left:0}
+.psoriasis_div_new .check_box_lable label{padding-top:6px;font-size:12px;color:#212121!important;margin-bottom:0}
+.psoriasis_div_new .form_custom_heading_testmonilas{margin-bottom:0;font-size:32px;text-align:left;font-weight:400;color:#212121;line-height:normal}
+.psoriasis_div_new .form_custom_heading_testmonilas span{font-weight:600;color:#187fc3}
+.psoriasis_div_new .btn_custom_testmonilas{width:100%;margin-bottom:0;height:calc(1.5em + .75rem + 2px);line-height:1.6;color:#fff;border-radius:6px;font-weight:500;border:none;background-color:#1f83c5!important;text-transform:uppercase; border-radius: 50px;}
+@media(max-width:600px){
+.psoriasis_div_new.form_section_div{margin-top:20px;background-color:#0c4475}
+.psoriasis_div_new .form_section_div .container{border-radius:20px}
+.psoriasis_div_new .form_custom_bg_testmonilas{width:100%;background:#fff;padding:20px 0;border-radius:20px}
+.psoriasis_div_new .testmonilas_form_custom label{position:absolute;top:37%;left:28px;transform:translateY(-50%);font-size:16px;color:#757575;pointer-events:none;transition:all .15s ease-out}
+.psoriasis_div_new .check_box_lable label{padding-top:0;font-size:10px;color:#212121!important;margin-bottom:10px}
+.psoriasis_div_new .btn_custom_testmonilas{font-size:16px}
+.psoriasis_div_new .form_custom_heading_testmonilas{margin-bottom:12px;font-size:24px;text-align:center;font-weight:400;color:#212121;line-height:normal}
+.psoriasis_div_new .form_custom_heading_testmonilas span{font-weight:600;color:#187fc3}
+.psoriasis_div_new .btn_custom_testmonilas{font-size:16px}
+}
+/*==========================================*/
+/* Form Form css*/
+/*==========================================*/
+.psoriasis_div_new.pcos_teartment_section{padding-top:50px}
+.psoriasis_div_new .list_for_pcos_common{margin-top:10px;margin-bottom:10px;padding-inline-start:25px}
+.psoriasis_div_new .list_for_pcos_common li strong{font-size:18px;color:#1f83c5;font-weight:600}
+.psoriasis_div_new .list_for_pcos_common li::marker{color:#1f83c5}
+@media screen and (max-width:600px){
+.psoriasis_div_new.pcos_teartment_section{padding-top:30px}
+}
+/*==========================================*/
+/* Doctor Information css*/
+/*==========================================*/
+.psoriasis_div_new.doctor_information_section_head{margin-top:50px}
+.psoriasis_div_new .Medical_reviewd_cls{font-size:18px;font-weight:500;margin-bottom:10px}
+.psoriasis_div_new .doctor_section_head{display:inline-flex;align-items:center}
+.psoriasis_div_new .doctor_section_head img{margin-right:15px;border:2px solid #0c4679}
+.psoriasis_div_new .doctor_section_head p{font-size:21px;font-weight:600;line-height:normal;margin-bottom:5px}
+.psoriasis_div_new .doctor_section_head p span{font-size:16px}
+.psoriasis_div_new #show-hidden-menu{font-size:16px;color:#1f83c5;font-weight:600}
+.psoriasis_div_new #show-hidden-menu::after{content:"";background:url(../images/angle-down.svg) no-repeat center;width:18px;height:18px;transition:.4s;display:inline-block;position:relative;top:5px}
+.psoriasis_div_new .qualification_doctor_div{font-size:16px;margin-top:10px}
+.psoriasis_div_new .qualification_doctor_div p strong{font-weight:600}
+@media screen and (max-width:600px){
+.psoriasis_div_new .Medical_reviewd_cls{font-size:16px}
+.psoriasis_div_new .doctor_section_head p{font-size:18px}
+.psoriasis_div_new .doctor_section_head p span{font-size:14px}
+}
+/*==========================================*/
+/* FAQ css*/
+/*==========================================*/
+.psoriasis_div_new.faq_accordation_section{margin-top:50px;margin-bottom:50px}
+.psoriasis_div_new.faq_accordation_section .accordion{display:flex;flex-direction:column;gap:10px;width:100%}
+.psoriasis_div_new.faq_accordation_section .accordion__item{border:1px solid #ecf0f2;border-radius:10px;overflow:hidden;transition:border .3s}
+.psoriasis_div_new.faq_accordation_section .accordion__header{padding:20px 25px;font-weight:600;cursor:pointer;position:relative;font-size:18px}
+.psoriasis_div_new.faq_accordation_section .accordion__header::after{content:"";background:url(../images/angle-down.svg) no-repeat center;width:20px;height:20px;transition:.4s;display:inline-block;position:absolute;right:15px;top:20px}
+.psoriasis_div_new.faq_accordation_section .accordion__header.active{background:#ecf0f2}
+.psoriasis_div_new.faq_accordation_section .accordion__header.active::after{transform:rotateX(180deg)}
+.psoriasis_div_new.faq_accordation_section .accordion__item.active{border:1px solid #000}
+.psoriasis_div_new.faq_accordation_section .accordion__item .accordion__content{padding:0 25px;max-height:0;transition:.5s;overflow:hidden;background:#ecf0f2;font-size:16px;font-weight:400}
+.psoriasis_div_new.faq_accordation_section .accordion__item .accordion__content p{margin-bottom:15px}
+@media screen and (max-width:600px){
+.psoriasis_div_new.faq_accordation_section{margin-top:30px;margin-bottom:30px}
+.psoriasis_div_new.faq_accordation_section .accordion__header{padding:15px 25px;font-weight:600;cursor:pointer;position:relative;font-size:16px}
+}
+/*==========================================*/
+/* Refrence css*/
+/*==========================================*/
+.com_div_new.new_common_ref{margin-top:35px; margin-bottom: 40px}
+.com_div_new.new_common_ref .refrence_new_list_com{list-style:disc;padding-inline-start:25px}
+.com_div_new.new_common_ref .refrence_new_list_com li {margin-bottom: 5px}
+.com_div_new.new_common_ref .refrence_new_list_com li a{font-size:16px;line-height:normal; font-weight: 300; color: #000}
+.com_div_new.new_common_ref .refrence_new_list_com li::marker{color:#1f83c5}
+@media screen and (max-width:600px){
+.com_div_new.new_common_ref{margin-top:30px; margin-bottom: 25px;}
+}
+/*==========================================*/
+/* Alopecia Plan section css*/
+/*==========================================*/
+.psoriasis_div_new.alopecia_plan_section{margin-top:40px}
+.psoriasis_div_new.alopecia_plan_section .dot-list-sym{padding-left:0}
+.psoriasis_div_new.alopecia_plan_section img{border-radius:20px}
+.psoriasis_div_new.alopecia_plan_section .dot-list-sym li{padding:12px 20px;font-size:18px;font-weight:300;color:#000;border:1px solid #cdcdcd;margin-top:10px;border-radius:8px;list-style:none;line-height:20px}
+.psoriasis_div_new.alopecia_plan_section .dot-list-sym li strong{font-size:24px;font-weight:600;line-height:40px}
+.psoriasis_div_new.alopecia_plan_section .dot-list-sym li::before{content:url('../images/dot.webp');display:inline-block;width:25px;font-size:25px;margin-left:-29px}
+@media (max-width:1680px){
+.psoriasis_div_new.alopecia_plan_section .dot-list-sym li{font-size:16px}
+}
+@media screen and (max-width:600px){
+.psoriasis_div_new.alopecia_plan_section{margin-top:30px}
+.psoriasis_div_new.alopecia_plan_section .dot-list-sym li strong{font-size:18px;line-height:30px}
+}
+
+
