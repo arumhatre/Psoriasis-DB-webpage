@@ -61,7 +61,7 @@ a:focus{
 .psoriasis_div_new .talk_about_btn{width:auto;display:inline-block;margin:10px 0 0 0;padding:8px 30px;line-height:normal;color:#0c4679;border-radius:50px;font-weight:600;font-size:16px;text-align:center;border:none;background-color:#fff!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
 }
 @media (max-width:600px){
-.psoriasis_div_new.banner_new_section h1{font-size:35px;font-weight:700;line-height:normal;color:#fff;text-align:center}
+.psoriasis_div_new.banner_new_section h1{font-size:32px;font-weight:700;line-height:normal;color:#fff;text-align:center}
 .psoriasis_div_new.banner_new_section h2{font-size:18px;font-weight:400;line-height:normal;color:#fff;text-align:center}
 .psoriasis_div_new.banner_new_section{padding:30px 0 15px;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url('../images/banner_bg_mob.webp');background-color:#0c4679;background-size:cover;background-position:center;background-repeat:no-repeat;border-radius:0 0 20px 20px}
 .psoriasis_div_new .talk_about_btn{width:80%;display:block;text-align:center;margin:15px auto 20px;padding:8px 30px;line-height:normal;color:#0c4679;border-radius:50px;font-weight:600;font-size:18px;text-align:center;border:none;background-color:#fff!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
@@ -284,11 +284,12 @@ a:focus{
 .psoriasis_div_new.faq_accordation_section .accordion__item{border:1px solid #ecf0f2;border-radius:10px;overflow:hidden;transition:border .3s}
 .psoriasis_div_new.faq_accordation_section .accordion__header{padding:20px 25px;font-weight:600;cursor:pointer;position:relative;font-size:18px}
 .psoriasis_div_new.faq_accordation_section .accordion__header::after{content:"";background:url(../images/angle-down.svg) no-repeat center;width:20px;height:20px;transition:.4s;display:inline-block;position:absolute;right:15px;top:20px}
-.psoriasis_div_new.faq_accordation_section .accordion__header.active{background:#ecf0f2}
+.psoriasis_div_new.faq_accordation_section .accordion__header.active{background:#ecf0f2;}
 .psoriasis_div_new.faq_accordation_section .accordion__header.active::after{transform:rotateX(180deg)}
-.psoriasis_div_new.faq_accordation_section .accordion__item.active{border:1px solid #000}
+.psoriasis_div_new.faq_accordation_section .accordion__item.active{border:1px solid #000;}
 .psoriasis_div_new.faq_accordation_section .accordion__item .accordion__content{padding:0 25px;max-height:0;transition:.5s;overflow:hidden;background:#ecf0f2;font-size:16px;font-weight:400}
 .psoriasis_div_new.faq_accordation_section .accordion__item .accordion__content p{margin-bottom:15px}
+.psoriasis_div_new.faq_accordation_section .accordion__item ul{padding-inline-start: 20px;}
 @media screen and (max-width:600px){
 .psoriasis_div_new.faq_accordation_section{margin-top:30px;margin-bottom:30px}
 .psoriasis_div_new.faq_accordation_section .accordion__header{padding:15px 25px;font-weight:600;cursor:pointer;position:relative;font-size:16px}
