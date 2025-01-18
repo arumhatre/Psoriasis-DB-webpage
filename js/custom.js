@@ -7,44 +7,33 @@ $(document).ready(function() {
       preloader: false,
       fixedContentPos: true
     });
-// Select all accordion headers
-const togglers = document.querySelectorAll('[data-bs-toggle]');
 
-// Iterate over each toggler
+   // Accordion functionality
+const togglers = document.querySelectorAll('[data-bs-toggle]');
 togglers.forEach((btn) => {
   const targetBlock = document.querySelector(btn.dataset.bsToggle);
-
-  // Initialize expanded items on page load
   if (btn.classList.contains('active')) {
     targetBlock.style.maxHeight = targetBlock.scrollHeight + 'px';
     btn.closest('.accordion__item').classList.add('active');
   }
 
-  // Add click event listener for toggling
   btn.addEventListener('click', (e) => {
     const block = document.querySelector(e.currentTarget.dataset.bsToggle);
-
-    // If clicked item is already active, collapse it
     if (e.currentTarget.classList.contains('active')) {
       block.style.maxHeight = '';
-      e.currentTarget.classList.remove('active');
       e.currentTarget.closest('.accordion__item').classList.remove('active');
     } else {
-      // Close other items
-      togglers.forEach((header) => {
-        if (header !== e.currentTarget) {
-          const otherBlock = document.querySelector(header.dataset.bsToggle);
-          otherBlock.style.maxHeight = '';
-          header.classList.remove('active');
-          header.closest('.accordion__item').classList.remove('active');
-        }
-      });
-
-      // Expand the clicked item
       block.style.maxHeight = block.scrollHeight + 'px';
-      e.currentTarget.classList.add('active');
       e.currentTarget.closest('.accordion__item').classList.add('active');
     }
+    e.currentTarget.classList.toggle('active');
+    document.querySelectorAll('.accordion__header').forEach(header => {
+      if (header !== e.currentTarget) {
+        header.classList.remove('active');
+        document.querySelector(header.dataset.bsToggle).style.maxHeight = '';
+        header.closest('.accordion__item').classList.remove('active');
+      }
+    });
   });
 });
 

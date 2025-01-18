@@ -287,6 +287,7 @@ a:focus{
 .psoriasis_div_new.faq_accordation_section .accordion__header.active{background:#ecf0f2;}
 .psoriasis_div_new.faq_accordation_section .accordion__header.active::after{transform:rotateX(180deg)}
 .psoriasis_div_new.faq_accordation_section .accordion__item.active{border:1px solid #000;}
+.psoriasis_div_new.faq_accordation_section .accordion__item.active .accordion__content{max-height: 500px !important; height: auto;}
 .psoriasis_div_new.faq_accordation_section .accordion__item .accordion__content{padding:0 25px;max-height:0;transition:.5s;overflow:hidden;background:#ecf0f2;font-size:16px;font-weight:400}
 .psoriasis_div_new.faq_accordation_section .accordion__item .accordion__content p{margin-bottom:15px}
 .psoriasis_div_new.faq_accordation_section .accordion__item ul{padding-inline-start: 20px;}
